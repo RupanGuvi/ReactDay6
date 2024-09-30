@@ -1,0 +1,12 @@
+Memoization:- 
+  => It is a technique for improving the performance of the code.
+
+useMemo Hook:- 
+ => It is used to apply Memoization in React
+ => It returns the Memoization Value
+ => useMemo(()=>{},[])
+
+ useCallback Hook:- 
+ => It is used to return the Memoization function.
+ => It is also useful for preventing functions from being re-created on re-rendering
+ => useCallback(()=>{},[])
